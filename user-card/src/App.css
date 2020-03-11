@@ -1,0 +1,39 @@
+body {
+  background-color: whitesmoke;
+}
+
+.App {
+  text-align: center;
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 30vw;
+  margin: auto;
+  margin-top: 1%;
+} 
+
+.btn {
+    display: inline-block;
+    border: none;
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: .8rem;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+input {
+  padding: 4px;
+  border: 1px solid black;
+  margin-right: 1px;
+  width: 200px;
+}
